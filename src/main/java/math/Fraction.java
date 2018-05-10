@@ -119,7 +119,12 @@ public class Fraction extends Number implements Cloneable {
 	 */
 	public Fraction pow(int n) {
 		// TODO (Chiroma Joshua Ishaku)
-		return null;
+		if(n > 0) {
+			return new Fraction((int)(Math.pow(numerator, n)),(int)(Math.pow(denominator, n)));
+		}else
+		{
+			return new Fraction((int)(Math.pow(denominator, -n)),(int)(Math.pow(numerator, -n)));
+		}
 	}
 
 	/**
@@ -174,7 +179,8 @@ public class Fraction extends Number implements Cloneable {
 	 */
 	public Fraction reciprocal() {
 		// TODO (Chiroma Joshua Ishaku)
-		return null;
+		
+		return new Fraction(denominator, numerator);
 	}
 
 	/**
