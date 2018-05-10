@@ -258,7 +258,10 @@ public class Fraction extends Number implements Cloneable {
 	 */
 	public Fraction reduce() {
 		// TODO (Srdanovic Rade)
-		return null;
+                
+                int gcd = GCD.gcd(numerator,denominator);
+                return new Fraction(this.numerator/gcd,this.denominator/gcd);
+                
 	}
 
 	/**
@@ -305,7 +308,14 @@ public class Fraction extends Number implements Cloneable {
 	 */
 	public String toString() {
 		// TODO (Srdanovic Rade)
-		return null;
-	}
-
+		//return "Number: " + numerator/denominator;
+                
+                if(numerator == 0){
+                    return "0";
+                }if(denominator == 1){
+                    return "numerator";
+                }else{
+                    return "Number: "+ numerator/denominator;
+                }
+        }
 }
