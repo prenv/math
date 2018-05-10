@@ -188,7 +188,7 @@ public class Fraction extends Number implements Cloneable {
                 if ( this.numerator < 0 ) {
                     return new Fraction(-this.numerator, this.denominator);
                 }
-		return this;
+		return new Fraction(this.numerator,this.denominator);
 	}
 
 	/**
