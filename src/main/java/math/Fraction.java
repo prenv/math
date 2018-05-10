@@ -184,7 +184,11 @@ public class Fraction extends Number implements Cloneable {
 	 */
 	public Fraction abs() {
 		// TODO (Kalbiyev Ali)
-		return null;
+                
+                if ( this.numerator < 0 ) {
+                    return new Fraction(-this.numerator, this.denominator);
+                }
+		return this;
 	}
 
 	/**
@@ -194,7 +198,8 @@ public class Fraction extends Number implements Cloneable {
 	 */
 	public int intValue() {
 		// TODO (Kalbiyev Ali)
-		return 0;
+                
+		return this.numerator/this.denominator;
 	}
 
 	/**
@@ -204,7 +209,8 @@ public class Fraction extends Number implements Cloneable {
 	 */
 	public double doubleValue() {
 		// TODO (Kalbiyev Ali)
-		return 0;
+                
+		return ( (double)this.numerator / (double)this.denominator );
 	}
 
 	/**
@@ -214,7 +220,8 @@ public class Fraction extends Number implements Cloneable {
 	 */
 	public float floatValue() {
 		// TODO (Kalbiyev Ali)
-		return 0;
+                
+		return ( (float)this.numerator / (float)this.denominator );
 	}
 
 	/**
@@ -224,7 +231,8 @@ public class Fraction extends Number implements Cloneable {
 	 */
 	public long longValue() {
 		// TODO (Kalbiyev Ali)
-		return 0;
+                
+		return this.numerator/this.denominator;
 	}
 
 	/**
