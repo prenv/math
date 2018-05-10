@@ -73,7 +73,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return a fraction that represents the result
 	 */
 	public Fraction add(int n) {
-		// TODO
+		// TODO (Adeel Dansih)
 		return null;
 	}
 
@@ -84,7 +84,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return a fraction that represents the result
 	 */
 	public Fraction substract(int n) {
-		// TODO
+		// TODO (Adeel Dansih)
 		return null;
 	}
 
@@ -95,7 +95,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return a fraction that represents the result
 	 */
 	public Fraction multiply(int n) {
-		// TODO
+		// TODO (Ben Lakhdar Yassine)
 		return null;
 	}
 
@@ -107,7 +107,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @throws ArithmeticException if the parameter {@code n} is zero
 	 */
 	public Fraction divide(int n) throws ArithmeticException {
-		// TODO
+		// TODO (Ben Lakhdar Yassine)
 		return null;
 	}
 
@@ -118,7 +118,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return a fraction that represents the result
 	 */
 	public Fraction pow(int n) {
-		// TODO
+		// TODO (Chiroma Joshua Ishaku)
 		return null;
 	}
 
@@ -129,7 +129,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return a fraction that represents the result
 	 */
 	public Fraction add(Fraction fraction) {
-		// TODO
+		// TODO (Eltahir Mohamed Abuelela Ibrahim)
 		return null;
 	}
 
@@ -140,7 +140,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return a fraction that represents the result
 	 */
 	public Fraction substract(Fraction fraction) {
-		// TODO
+		// TODO (Eltahir Mohamed Abuelela Ibrahim)
 		return null;
 	}
 
@@ -152,7 +152,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @throws ArithmeticException if the parameter {@code fraction} is zero
 	 */
 	public Fraction divide(Fraction fraction) throws ArithmeticException {
-		// TODO
+		// TODO (Farouk Umar Abubakar)
 		return null;
 	}
 
@@ -163,7 +163,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return a fraction that represents the result
 	 */
 	public Fraction multiply(Fraction fraction) {
-		// TODO
+		// TODO (Farouk Umar Abubakar)
 		return null;
 	}
 
@@ -173,7 +173,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return a fraction that represents the reciprocal of this fraction
 	 */
 	public Fraction reciprocal() {
-		// TODO
+		// TODO (Chiroma Joshua Ishaku)
 		return null;
 	}
 
@@ -183,7 +183,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return the absolute value of this fraction
 	 */
 	public Fraction abs() {
-		// TODO
+		// TODO (Kalbiyev Ali)
 		return null;
 	}
 
@@ -193,7 +193,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return the value of this fraction as an {@code int}
 	 */
 	public int intValue() {
-		// TODO
+		// TODO (Kalbiyev Ali)
 		return 0;
 	}
 
@@ -203,7 +203,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return the value of this fraction as a {@code double}
 	 */
 	public double doubleValue() {
-		// TODO
+		// TODO (Kalbiyev Ali)
 		return 0;
 	}
 
@@ -213,7 +213,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return the value of this fraction as a {@code float}
 	 */
 	public float floatValue() {
-		// TODO
+		// TODO (Kalbiyev Ali)
 		return 0;
 	}
 
@@ -223,7 +223,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return the value of this fraction as a {@code long}
 	 */
 	public long longValue() {
-		// TODO
+		// TODO (Kalbiyev Ali)
 		return 0;
 	}
 
@@ -243,7 +243,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return the result of the reduction of this fraction
 	 */
 	public Fraction reduce() {
-		// TODO
+		// TODO (Srdanovic Rade)
 		return null;
 	}
 
@@ -290,7 +290,7 @@ public class Fraction extends Number implements Cloneable {
 	 * @return the string representation of this fraction
 	 */
 	public String toString() {
-		// TODO
+		// TODO (Srdanovic Rade)
 		return null;
 	}
 
