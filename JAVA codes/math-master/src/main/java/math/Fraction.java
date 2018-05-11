@@ -75,8 +75,8 @@ public class Fraction extends Number implements Cloneable {
 	public Fraction add(int n) {
 		// TODO (Adeel Danish)
             Fraction ans = new Fraction(this.numerator, this.denominator);
-            ans.add(n);
-            return ans;
+            
+            return ans.add(n);
                     
                 
 	}
@@ -90,8 +90,8 @@ public class Fraction extends Number implements Cloneable {
 	public Fraction substract(int n) {
 		// TODO (Adeel Dansih)
             Fraction ans = new Fraction(this.numerator, this.denominator);
-            ans.substract(n);
-            return ans;
+            
+            return ans.substract(n);
 	}
 
 	/**
@@ -102,7 +102,7 @@ public class Fraction extends Number implements Cloneable {
 	 */
 	public Fraction multiply(int n) {
 		// TODO (Ben Lakhdar Yassine)
-		return null;
+            return null;
 	}
 
 	/**
@@ -114,7 +114,7 @@ public class Fraction extends Number implements Cloneable {
 	 */
 	public Fraction divide(int n) throws ArithmeticException {
 		// TODO (Ben Lakhdar Yassine)
-		return null;
+           return null;
 	}
 
 	/**
